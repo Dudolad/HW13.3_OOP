@@ -3,10 +3,10 @@
 
 namespace Birds
 {
-    class Dog : public Animal {
+    class Eagle : public Animal {
     public:
         void makeSound() const override {
-            cout << "Собака: Гав-гав!" << endl;
+            cout << "Орел: Крик орла!" << endl;
         }
     };
     
